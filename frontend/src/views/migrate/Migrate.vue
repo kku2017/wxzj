@@ -16,6 +16,7 @@
         <el-button type="primary" :disabled="!file" :loading="loadingPreview" @click="doPreview">预览</el-button>
         <el-button type="success" :disabled="!file" :loading="loadingRun" @click="doRun">执行迁移</el-button>
         <el-button :disabled="!file" @click="reset">清空</el-button>
+        <el-button @click="downloadTemplate">下载模板</el-button>
       </div>
     </el-card>
 
@@ -108,5 +109,17 @@ function reset() {
   file.value = null
   preview.value = null
   report.value = null
+}
+
+function downloadTemplate() {
+  const header = '小区名称,楼,单元,房屋,业主姓名,证件号码,证件类型,电梯标志,摘要,交易时间,交易金额,发票号,面积'
+  const example = '锦绣花园,1,1,101,李强,110101198001011234,身份证,有,缴存,2024-01-10,10000,F1001,89.50'
+  const blob = new Blob(['\ufeff' + header + '\r\n' + example + '\r\n'], { type: 'text/csv;charset=utf-8' })
+  const url = URL.createObjectURL(blob)
+  const a = document.createElement('a')
+  a.href = url
+  a.download = 'house_info_template.csv'
+  a.click()
+  URL.revokeObjectURL(url)
 }
 </script>
