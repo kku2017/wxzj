@@ -31,6 +31,9 @@
           <el-menu-item index="/query/flow">流水查询</el-menu-item>
           <el-menu-item v-if="!auth.isOwner" index="/query/statistics">统计报表</el-menu-item>
         </el-sub-menu>
+        <el-menu-item v-if="auth.isAdmin || auth.isProperty" index="/migrate">
+          <el-icon><Upload /></el-icon>数据迁移
+        </el-menu-item>
         <el-menu-item v-if="auth.isAdmin" index="/workflow">
           <el-icon><SetUp /></el-icon>流程配置
         </el-menu-item>

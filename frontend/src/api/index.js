@@ -58,3 +58,15 @@ export const listFlowNodes = (id) => request.get(`/workflow/def/${id}/node`)
 export const saveFlowNode = (data) => request.post('/workflow/node', data)
 export const deleteFlowNode = (id) => request.delete(`/workflow/node/${id}`)
 export const saveFlowDef = (data) => request.post('/workflow/def', data)
+
+// 数据迁移
+export const migratePreview = (file) => {
+  const fd = new FormData()
+  fd.append('file', file)
+  return request.post('/migrate/preview', fd)
+}
+export const migrateExecute = (file) => {
+  const fd = new FormData()
+  fd.append('file', file)
+  return request.post('/migrate/execute', fd)
+}

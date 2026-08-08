@@ -19,6 +19,7 @@ const routes = [
       { path: 'query/account', component: () => import('../views/query/AccountQuery.vue'), meta: { title: '账户查询' } },
       { path: 'query/flow', component: () => import('../views/query/FlowQuery.vue'), meta: { title: '流水查询' } },
       { path: 'query/statistics', component: () => import('../views/query/Statistics.vue'), meta: { title: '统计报表' } },
+      { path: 'migrate', component: () => import('../views/migrate/Migrate.vue'), meta: { title: '数据迁移' } },
       { path: 'workflow', component: () => import('../views/workflow/FlowConfig.vue'), meta: { title: '流程配置' } }
     ]
   }

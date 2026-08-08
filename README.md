@@ -16,7 +16,9 @@
 wxzj/
 ├── docs/
 │   ├── DESIGN.md          # 设计方案（模块/数据模型/工作流/时序图/API）
-│   └── TESTING.md         # 测试文档（功能用例/场景/接口/边界）
+│   ├── TESTING.md         # 测试文档（功能用例/场景/接口/边界）
+│   └── MIGRATION.md       # 数据迁移工具使用手册
+├── migration/             # 历史数据迁移模板与测试数据（house_info.csv）
 ├── sql/schema.sql         # MySQL 建表脚本
 ├── backend/               # Spring Boot 后端（端口 8080）
 └── frontend/              # Vue3 前端（端口 5173，/api 代理到 8080）
@@ -57,12 +59,14 @@ npm run dev                # 访问 http://localhost:5173
 - **资金使用**：按面积分摊 → 提交审批 → 审批流 → 拨付扣款
 - **资金退款**：发起（产权转移/灭失/多缴）→ 审批流 → 退款完结
 - **综合查询**：账户余额、收支流水、统计报表（按小区汇总+占比）
+- **数据迁移**：上传 house_info.csv 自动补齐档案、建账户、生成缴存单与流水（支持一房多主，见 `docs/MIGRATION.md`）
 - **可配置工作流**：流程定义 + 顺序节点（节点可增删改），审批留痕
 
 ## 文档
 
 - 设计方案（含工作流与全流程时序）：`docs/DESIGN.md`
 - 测试文档（用例/场景/边界/验证结果）：`docs/TESTING.md`
+- 数据迁移工具使用手册（CSV 模板/摘要规则/验证结果）：`docs/MIGRATION.md`
 
 ## 常见问题
 

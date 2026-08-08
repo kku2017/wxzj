@@ -1,0 +1,280 @@
+// 维修资金管理系统 ER 图 - DBML (粘贴到 https://dbdiagram.io)
+
+Table sys_user {
+  id bigint [pk, note: '主键']
+  username varchar [note: '登录名，唯一']
+  password varchar [note: 'BCrypt 密文']
+  real_name varchar [note: '姓名']
+  phone varchar [note: '电话']
+  role varchar [note: 'ADMIN/PROPERTY/COMMITTEE/OWNER']
+  owner_id bigint [note: '关联业主（业主角色）']
+  status varchar [note: 'ACTIVE/停用']
+  create_time datetime [note: '创建时间']
+  note: '系统用户：系统登录账号'
+}
+
+Table t_owner {
+  id bigint [pk, note: '主键']
+  name varchar [note: '姓名']
+  id_card varchar [note: '身份证号，唯一']
+  phone varchar [note: '电话']
+  gender varchar [note: '性别']
+  address varchar [note: '地址']
+  create_time datetime [note: '创建时间']
+  note: '业主：房屋产权人信息'
+}
+
+Table t_house_owner {
+  id bigint [pk, note: '主键']
+  house_id bigint [note: '房屋']
+  owner_id bigint [note: '业主']
+  relation_type varchar [note: '产权人/共有人']
+  is_main tinyint [note: '1主0次']
+  note: '房屋业主关系：一房多主、主次关系'
+}
+
+Table t_community {
+  id bigint [pk, note: '主键']
+  name varchar [note: '小区名称']
+  address varchar [note: '地址']
+  developer varchar [note: '开发商']
+  build_year int [note: '建成年份']
+  area decimal [note: '总建筑面积(㎡)']
+  house_count int [note: '房屋套数']
+  status varchar [note: '启用/停用']
+  create_time datetime [note: '创建时间']
+  note: '小区：物业小区基本信息'
+}
+
+Table t_building {
+  id bigint [pk, note: '主键']
+  community_id bigint [note: '所属小区']
+  building_no varchar [note: '楼栋号']
+  name varchar [note: '楼栋名称']
+  floors int [note: '楼层数']
+  area decimal [note: '建筑面积(㎡)']
+  create_time datetime [note: '创建时间']
+  note: '楼栋：小区内楼栋'
+}
+
+Table t_house {
+  id bigint [pk, note: '主键']
+  community_id bigint [note: '所属小区']
+  building_id bigint [note: '所属楼栋']
+  house_no varchar [note: '房号，如 1-101']
+  floor int [note: '楼层']
+  area decimal [note: '建筑面积(㎡)']
+  status varchar [note: '已售/空置']
+  owner_id bigint [note: '产权人']
+  create_time datetime [note: '创建时间']
+  note: '房屋：每套住宅，开户对象'
+}
+
+Table t_fund_account {
+  id bigint [pk, note: '主键']
+  account_no varchar [note: '账户号，唯一']
+  house_id bigint [note: '关联房屋']
+  owner_id bigint [note: '业主']
+  community_id bigint [note: '所属小区']
+  balance decimal [note: '当前余额']
+  total_deposit decimal [note: '累计缴存']
+  total_used decimal [note: '累计使用']
+  total_refund decimal [note: '累计退款']
+  status varchar [note: '正常/冻结/注销']
+  open_time datetime [note: '开户时间']
+  create_time datetime [note: '创建时间']
+  note: '资金账户：每套房屋一个维修资金账户'
+}
+
+Table t_deposit_standard {
+  id bigint [pk, note: '主键']
+  community_id bigint [note: '所属小区']
+  name varchar [note: '标准名称']
+  unit_price decimal [note: '单价(元/㎡)']
+  type varchar [note: '初始缴存/续缴']
+  effective_date date [note: '生效日期']
+  status varchar [note: '启用/停用']
+  create_time datetime [note: '创建时间']
+  note: '缴存标准：按小区配置缴存单价'
+}
+
+Table t_deposit {
+  id bigint [pk, note: '主键']
+  order_no varchar [note: '缴存单号，唯一']
+  community_id bigint [note: '小区']
+  house_id bigint [note: '房屋']
+  account_id bigint [note: '资金账户']
+  standard_id bigint [note: '缴存标准']
+  owner_id bigint [note: '业主']
+  type varchar [note: '初始/续缴/补缴']
+  quantity decimal [note: '面积(㎡)']
+  unit_price decimal [note: '单价']
+  amount decimal [note: '应缴金额']
+  status varchar [note: '待缴/已缴/作废']
+  operator_id bigint [note: '经办人']
+  pay_time datetime [note: '到账时间']
+  remark varchar [note: '备注']
+  create_time datetime [note: '创建时间']
+  note: '缴存单：资金缴存业务单'
+}
+
+Table t_use_apply {
+  id bigint [pk, note: '主键']
+  apply_no varchar [note: '申请单号，唯一']
+  community_id bigint [note: '小区']
+  title varchar [note: '维修项目名称']
+  reason varchar [note: '维修原因']
+  item_desc varchar [note: '项目内容']
+  total_amount decimal [note: '总金额']
+  share_area decimal [note: '分摊面积合计']
+  status varchar [note: '草稿/审批中/已批准/已拨付/已驳回']
+  apply_user_id bigint [note: '申请人']
+  apply_time datetime [note: '申请时间']
+  finish_time datetime [note: '完成时间']
+  remark varchar [note: '备注']
+  create_time datetime [note: '创建时间']
+  note: '使用申请：维修资金使用申请单'
+}
+
+Table t_use_item {
+  id bigint [pk, note: '主键']
+  use_apply_id bigint [note: '使用申请']
+  house_id bigint [note: '房屋']
+  account_id bigint [note: '资金账户']
+  share_area decimal [note: '分摊面积']
+  share_amount decimal [note: '分摊金额']
+  status varchar [note: '待拨付/已拨付']
+  note: '使用分摊明细：按面积分摊到户'
+}
+
+Table t_use_payment {
+  id bigint [pk, note: '主键']
+  use_apply_id bigint [note: '使用申请']
+  amount decimal [note: '拨付金额']
+  pay_time datetime [note: '拨付时间']
+  operator_id bigint [note: '经办人']
+  remark varchar [note: '备注']
+  note: '拨付记录：使用拨付记录'
+}
+
+Table t_refund_apply {
+  id bigint [pk, note: '主键']
+  refund_no varchar [note: '退款单号，唯一']
+  community_id bigint [note: '小区']
+  house_id bigint [note: '房屋']
+  account_id bigint [note: '资金账户']
+  owner_id bigint [note: '业主']
+  reason varchar [note: '产权转移/灭失/多缴']
+  amount decimal [note: '退款金额']
+  balance_at_apply decimal [note: '申请时余额']
+  status varchar [note: '审批中/已批准/已退款/已驳回']
+  apply_user_id bigint [note: '申请人']
+  apply_time datetime [note: '申请时间']
+  finish_time datetime [note: '完成时间']
+  remark varchar [note: '备注']
+  create_time datetime [note: '创建时间']
+  note: '退款申请：维修资金退款申请单'
+}
+
+Table t_fund_flow {
+  id bigint [pk, note: '主键']
+  flow_no varchar [note: '流水号，唯一']
+  account_id bigint [note: '资金账户']
+  house_id bigint [note: '房屋']
+  community_id bigint [note: '小区']
+  type varchar [note: '缴存/使用/退款']
+  direction varchar [note: 'IN 收入/OUT 支出']
+  amount decimal [note: '金额']
+  balance decimal [note: '变动后余额']
+  related_no varchar [note: '关联单据号']
+  operator_id bigint [note: '经办人']
+  biz_time datetime [note: '业务时间']
+  remark varchar [note: '备注']
+  create_time datetime [note: '创建时间']
+  note: '资金流水：账户收支总账'
+}
+
+Table t_flow_def {
+  id bigint [pk, note: '主键']
+  code varchar [note: 'USE/REFUND，唯一']
+  name varchar [note: '流程名称']
+  status varchar [note: '启用/停用']
+  create_time datetime [note: '创建时间']
+  note: '流程定义：业务审批流程'
+}
+
+Table t_flow_node {
+  id bigint [pk, note: '主键']
+  flow_def_id bigint [note: '所属流程']
+  node_no int [note: '节点顺序']
+  node_name varchar [note: '节点名称']
+  approver_role varchar [note: '审批角色']
+  create_time datetime [note: '创建时间']
+  note: '流程节点：审批节点配置'
+}
+
+Table t_flow_instance {
+  id bigint [pk, note: '主键']
+  flow_def_id bigint [note: '流程定义']
+  biz_type varchar [note: 'USE/REFUND']
+  biz_id bigint [note: '业务单据ID']
+  current_node_no int [note: '当前节点']
+  status varchar [note: '运行中/完成/终止']
+  start_time datetime [note: '开始时间']
+  end_time datetime [note: '结束时间']
+  note: '流程实例：单据审批运行实例'
+}
+
+Table t_approval {
+  id bigint [pk, note: '主键']
+  flow_instance_id bigint [note: '流程实例']
+  biz_type varchar [note: 'USE/REFUND']
+  biz_id bigint [note: '业务单据ID']
+  node_no int [note: '节点']
+  node_name varchar [note: '节点名称']
+  approver_id bigint [note: '审批人']
+  approver_name varchar [note: '审批人姓名']
+  action varchar [note: '通过/驳回']
+  opinion varchar [note: '意见']
+  time datetime [note: '审批时间']
+  note: '审批记录：审批留痕'
+}
+
+// 外键关系
+Ref: t_owner.id > sys_user.id
+Ref: t_building.community_id > t_community.id
+Ref: t_house.community_id > t_community.id
+Ref: t_house.building_id > t_building.id
+Ref: t_house.owner_id > t_owner.id
+Ref: t_house_owner.house_id > t_house.id
+Ref: t_house_owner.owner_id > t_owner.id
+Ref: t_fund_account.house_id > t_house.id
+Ref: t_fund_account.owner_id > t_owner.id
+Ref: t_fund_account.community_id > t_community.id
+Ref: t_deposit_standard.community_id > t_community.id
+Ref: t_deposit.community_id > t_community.id
+Ref: t_deposit.house_id > t_house.id
+Ref: t_deposit.account_id > t_fund_account.id
+Ref: t_deposit.standard_id > t_deposit_standard.id
+Ref: t_deposit.owner_id > t_owner.id
+Ref: t_deposit.operator_id > sys_user.id
+Ref: t_use_apply.community_id > t_community.id
+Ref: t_use_apply.apply_user_id > sys_user.id
+Ref: t_use_item.use_apply_id > t_use_apply.id
+Ref: t_use_item.house_id > t_house.id
+Ref: t_use_item.account_id > t_fund_account.id
+Ref: t_use_payment.use_apply_id > t_use_apply.id
+Ref: t_use_payment.operator_id > sys_user.id
+Ref: t_refund_apply.community_id > t_community.id
+Ref: t_refund_apply.house_id > t_house.id
+Ref: t_refund_apply.account_id > t_fund_account.id
+Ref: t_refund_apply.owner_id > t_owner.id
+Ref: t_refund_apply.apply_user_id > sys_user.id
+Ref: t_fund_flow.account_id > t_fund_account.id
+Ref: t_fund_flow.house_id > t_house.id
+Ref: t_fund_flow.community_id > t_community.id
+Ref: t_fund_flow.operator_id > sys_user.id
+Ref: t_flow_node.flow_def_id > t_flow_def.id
+Ref: t_flow_instance.flow_def_id > t_flow_def.id
+Ref: t_approval.flow_instance_id > t_flow_instance.id
+Ref: t_approval.approver_id > sys_user.id
