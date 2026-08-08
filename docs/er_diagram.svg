@@ -1,0 +1,395 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1370" height="1974" viewBox="0 0 1370 1974">
+<rect width="100%" height="100%" fill="#fbfbfb"/>
+<text x="30" y="34" font-size="22" font-weight="bold" fill="#1f3b73">维修资金系统 ER 关系图</text>
+<text x="30" y="52" font-size="12" fill="#666">颜色分组：蓝=人员权限 ｜ 绿=基础数据 ｜ 橙=资金业务(含账户) ｜ 红=审批工作流</text>
+<path d="M290,305 C160.0,305 160.0,94 30,94" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="30" cy="94" r="2.6" fill="#b0b8c4"/>
+<path d="M610,305 C480.0,305 480.0,94 350,94" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="350" cy="94" r="2.6" fill="#b0b8c4"/>
+<path d="M610,482 C480.0,482 480.0,94 350,94" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="350" cy="94" r="2.6" fill="#b0b8c4"/>
+<path d="M610,482 C480.0,482 480.0,305 350,305" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="350" cy="305" r="2.6" fill="#b0b8c4"/>
+<path d="M610,482 C320.0,482 320.0,305 30,305" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="30" cy="305" r="2.6" fill="#b0b8c4"/>
+<path d="M290,482 C320.0,482 320.0,482 350,482" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="350" cy="482" r="2.6" fill="#b0b8c4"/>
+<path d="M290,482 C160.0,482 160.0,305 30,305" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="30" cy="305" r="2.6" fill="#b0b8c4"/>
+<path d="M930,94 C640.0,94 640.0,482 350,482" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="350" cy="482" r="2.6" fill="#b0b8c4"/>
+<path d="M930,94 C480.0,94 480.0,305 30,305" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="30" cy="305" r="2.6" fill="#b0b8c4"/>
+<path d="M930,94 C640.0,94 640.0,94 350,94" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="350" cy="94" r="2.6" fill="#b0b8c4"/>
+<path d="M610,693 C480.0,693 480.0,94 350,94" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="350" cy="94" r="2.6" fill="#b0b8c4"/>
+<path d="M930,356 C640.0,356 640.0,94 350,94" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="350" cy="94" r="2.6" fill="#b0b8c4"/>
+<path d="M930,356 C640.0,356 640.0,482 350,482" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="350" cy="482" r="2.6" fill="#b0b8c4"/>
+<path d="M930,356 C800.0,356 800.0,94 670,94" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="670" cy="94" r="2.6" fill="#b0b8c4"/>
+<path d="M930,356 C640.0,356 640.0,693 350,693" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="350" cy="693" r="2.6" fill="#b0b8c4"/>
+<path d="M930,356 C480.0,356 480.0,305 30,305" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="30" cy="305" r="2.6" fill="#b0b8c4"/>
+<path d="M930,356 C480.0,356 480.0,94 30,94" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="30" cy="94" r="2.6" fill="#b0b8c4"/>
+<path d="M930,686 C640.0,686 640.0,94 350,94" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="350" cy="94" r="2.6" fill="#b0b8c4"/>
+<path d="M930,686 C480.0,686 480.0,94 30,94" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="30" cy="94" r="2.6" fill="#b0b8c4"/>
+<path d="M930,982 C800.0,982 800.0,686 670,686" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="670" cy="686" r="2.6" fill="#b0b8c4"/>
+<path d="M930,982 C640.0,982 640.0,482 350,482" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="350" cy="482" r="2.6" fill="#b0b8c4"/>
+<path d="M930,982 C800.0,982 800.0,94 670,94" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="670" cy="94" r="2.6" fill="#b0b8c4"/>
+<path d="M930,1159 C800.0,1159 800.0,686 670,686" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="670" cy="686" r="2.6" fill="#b0b8c4"/>
+<path d="M930,1159 C480.0,1159 480.0,94 30,94" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="30" cy="94" r="2.6" fill="#b0b8c4"/>
+<path d="M930,1319 C640.0,1319 640.0,94 350,94" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="350" cy="94" r="2.6" fill="#b0b8c4"/>
+<path d="M930,1319 C640.0,1319 640.0,482 350,482" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="350" cy="482" r="2.6" fill="#b0b8c4"/>
+<path d="M930,1319 C800.0,1319 800.0,94 670,94" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="670" cy="94" r="2.6" fill="#b0b8c4"/>
+<path d="M930,1319 C480.0,1319 480.0,305 30,305" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="30" cy="305" r="2.6" fill="#b0b8c4"/>
+<path d="M930,1319 C480.0,1319 480.0,94 30,94" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="30" cy="94" r="2.6" fill="#b0b8c4"/>
+<path d="M930,1632 C800.0,1632 800.0,94 670,94" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="670" cy="94" r="2.6" fill="#b0b8c4"/>
+<path d="M930,1632 C640.0,1632 640.0,482 350,482" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="350" cy="482" r="2.6" fill="#b0b8c4"/>
+<path d="M930,1632 C640.0,1632 640.0,94 350,94" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="350" cy="94" r="2.6" fill="#b0b8c4"/>
+<path d="M930,1632 C480.0,1632 480.0,94 30,94" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="30" cy="94" r="2.6" fill="#b0b8c4"/>
+<path d="M1250,237 C1120.0,237 1120.0,94 990,94" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="990" cy="94" r="2.6" fill="#b0b8c4"/>
+<path d="M1250,397 C1120.0,397 1120.0,94 990,94" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="990" cy="94" r="2.6" fill="#b0b8c4"/>
+<path d="M1250,591 C1120.0,591 1120.0,397 990,397" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="990" cy="397" r="2.6" fill="#b0b8c4"/>
+<path d="M1250,591 C640.0,591 640.0,94 30,94" fill="none" stroke="#b0b8c4" stroke-width="1" stroke-dasharray="4 3"/>
+<circle cx="30" cy="94" r="2.6" fill="#b0b8c4"/>
+<g>
+<rect x="30" y="60" width="260" height="185" rx="6" fill="#e8f0fe" stroke="#1a73e8" stroke-width="1.5"/>
+<rect x="30" y="60" width="260" height="24" rx="6" fill="#1a73e8"/>
+<rect x="30" y="78" width="260" height="6" fill="#1a73e8"/>
+<text x="40" y="76" font-size="13" font-weight="bold" fill="#fff">sys_user</text>
+<text x="280" y="76" font-size="10" fill="#fff" text-anchor="end">系统用户</text>
+<text x="38" y="98" font-size="11" fill="#222">id <tspan fill="#c5221f" font-weight="bold">PK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="38" y="115" font-size="11" fill="#222">username<tspan fill="#888" font-size="10"> VARCHAR(64)</tspan></text>
+<text x="38" y="132" font-size="11" fill="#222">password<tspan fill="#888" font-size="10"> VARCHAR(100)</tspan></text>
+<text x="38" y="149" font-size="11" fill="#222">real_name<tspan fill="#888" font-size="10"> VARCHAR(64)</tspan></text>
+<text x="38" y="166" font-size="11" fill="#222">phone<tspan fill="#888" font-size="10"> VARCHAR(20)</tspan></text>
+<text x="38" y="183" font-size="11" fill="#222">role<tspan fill="#888" font-size="10"> VARCHAR(20)</tspan></text>
+<text x="38" y="200" font-size="11" fill="#222">owner_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="38" y="217" font-size="11" fill="#222">status<tspan fill="#888" font-size="10"> VARCHAR(16)</tspan></text>
+<text x="38" y="234" font-size="11" fill="#222">create_time<tspan fill="#888" font-size="10"> DATETIME</tspan></text>
+<text x="38" y="241" font-size="10" fill="#1a73e8" font-weight="bold">人员与权限</text>
+</g>
+<g>
+<rect x="30" y="271" width="260" height="151" rx="6" fill="#e8f0fe" stroke="#1a73e8" stroke-width="1.5"/>
+<rect x="30" y="271" width="260" height="24" rx="6" fill="#1a73e8"/>
+<rect x="30" y="289" width="260" height="6" fill="#1a73e8"/>
+<text x="40" y="287" font-size="13" font-weight="bold" fill="#fff">t_owner</text>
+<text x="280" y="287" font-size="10" fill="#fff" text-anchor="end">业主</text>
+<text x="38" y="309" font-size="11" fill="#222">id <tspan fill="#c5221f" font-weight="bold">PK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="38" y="326" font-size="11" fill="#222">name<tspan fill="#888" font-size="10"> VARCHAR(64)</tspan></text>
+<text x="38" y="343" font-size="11" fill="#222">id_card<tspan fill="#888" font-size="10"> VARCHAR(30)</tspan></text>
+<text x="38" y="360" font-size="11" fill="#222">phone<tspan fill="#888" font-size="10"> VARCHAR(20)</tspan></text>
+<text x="38" y="377" font-size="11" fill="#222">gender<tspan fill="#888" font-size="10"> VARCHAR(4)</tspan></text>
+<text x="38" y="394" font-size="11" fill="#222">address<tspan fill="#888" font-size="10"> VARCHAR(200)</tspan></text>
+<text x="38" y="411" font-size="11" fill="#222">create_time<tspan fill="#888" font-size="10"> DATETIME</tspan></text>
+<text x="38" y="418" font-size="10" fill="#1a73e8" font-weight="bold">人员与权限</text>
+</g>
+<g>
+<rect x="30" y="448" width="260" height="117" rx="6" fill="#e8f0fe" stroke="#1a73e8" stroke-width="1.5"/>
+<rect x="30" y="448" width="260" height="24" rx="6" fill="#1a73e8"/>
+<rect x="30" y="466" width="260" height="6" fill="#1a73e8"/>
+<text x="40" y="464" font-size="13" font-weight="bold" fill="#fff">t_house_owner</text>
+<text x="280" y="464" font-size="10" fill="#fff" text-anchor="end">房屋业主关系</text>
+<text x="38" y="486" font-size="11" fill="#222">id <tspan fill="#c5221f" font-weight="bold">PK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="38" y="503" font-size="11" fill="#222">house_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="38" y="520" font-size="11" fill="#222">owner_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="38" y="537" font-size="11" fill="#222">relation_type<tspan fill="#888" font-size="10"> VARCHAR(20)</tspan></text>
+<text x="38" y="554" font-size="11" fill="#222">is_main<tspan fill="#888" font-size="10"> TINYINT</tspan></text>
+<text x="38" y="561" font-size="10" fill="#1a73e8" font-weight="bold">人员与权限</text>
+</g>
+<g>
+<rect x="350" y="60" width="260" height="185" rx="6" fill="#e6f4ea" stroke="#188038" stroke-width="1.5"/>
+<rect x="350" y="60" width="260" height="24" rx="6" fill="#188038"/>
+<rect x="350" y="78" width="260" height="6" fill="#188038"/>
+<text x="360" y="76" font-size="13" font-weight="bold" fill="#fff">t_community</text>
+<text x="600" y="76" font-size="10" fill="#fff" text-anchor="end">小区</text>
+<text x="358" y="98" font-size="11" fill="#222">id <tspan fill="#c5221f" font-weight="bold">PK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="358" y="115" font-size="11" fill="#222">name<tspan fill="#888" font-size="10"> VARCHAR(100)</tspan></text>
+<text x="358" y="132" font-size="11" fill="#222">address<tspan fill="#888" font-size="10"> VARCHAR(200)</tspan></text>
+<text x="358" y="149" font-size="11" fill="#222">developer<tspan fill="#888" font-size="10"> VARCHAR(100)</tspan></text>
+<text x="358" y="166" font-size="11" fill="#222">build_year<tspan fill="#888" font-size="10"> INT</tspan></text>
+<text x="358" y="183" font-size="11" fill="#222">area<tspan fill="#888" font-size="10"> DECIMAL(14,2)</tspan></text>
+<text x="358" y="200" font-size="11" fill="#222">house_count<tspan fill="#888" font-size="10"> INT</tspan></text>
+<text x="358" y="217" font-size="11" fill="#222">status<tspan fill="#888" font-size="10"> VARCHAR(16)</tspan></text>
+<text x="358" y="234" font-size="11" fill="#222">create_time<tspan fill="#888" font-size="10"> DATETIME</tspan></text>
+<text x="358" y="241" font-size="10" fill="#188038" font-weight="bold">基础数据</text>
+</g>
+<g>
+<rect x="350" y="271" width="260" height="151" rx="6" fill="#e6f4ea" stroke="#188038" stroke-width="1.5"/>
+<rect x="350" y="271" width="260" height="24" rx="6" fill="#188038"/>
+<rect x="350" y="289" width="260" height="6" fill="#188038"/>
+<text x="360" y="287" font-size="13" font-weight="bold" fill="#fff">t_building</text>
+<text x="600" y="287" font-size="10" fill="#fff" text-anchor="end">楼栋</text>
+<text x="358" y="309" font-size="11" fill="#222">id <tspan fill="#c5221f" font-weight="bold">PK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="358" y="326" font-size="11" fill="#222">community_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="358" y="343" font-size="11" fill="#222">building_no<tspan fill="#888" font-size="10"> VARCHAR(20)</tspan></text>
+<text x="358" y="360" font-size="11" fill="#222">name<tspan fill="#888" font-size="10"> VARCHAR(100)</tspan></text>
+<text x="358" y="377" font-size="11" fill="#222">floors<tspan fill="#888" font-size="10"> INT</tspan></text>
+<text x="358" y="394" font-size="11" fill="#222">area<tspan fill="#888" font-size="10"> DECIMAL(14,2)</tspan></text>
+<text x="358" y="411" font-size="11" fill="#222">create_time<tspan fill="#888" font-size="10"> DATETIME</tspan></text>
+<text x="358" y="418" font-size="10" fill="#188038" font-weight="bold">基础数据</text>
+</g>
+<g>
+<rect x="350" y="448" width="260" height="185" rx="6" fill="#e6f4ea" stroke="#188038" stroke-width="1.5"/>
+<rect x="350" y="448" width="260" height="24" rx="6" fill="#188038"/>
+<rect x="350" y="466" width="260" height="6" fill="#188038"/>
+<text x="360" y="464" font-size="13" font-weight="bold" fill="#fff">t_house</text>
+<text x="600" y="464" font-size="10" fill="#fff" text-anchor="end">房屋</text>
+<text x="358" y="486" font-size="11" fill="#222">id <tspan fill="#c5221f" font-weight="bold">PK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="358" y="503" font-size="11" fill="#222">community_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="358" y="520" font-size="11" fill="#222">building_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="358" y="537" font-size="11" fill="#222">house_no<tspan fill="#888" font-size="10"> VARCHAR(40)</tspan></text>
+<text x="358" y="554" font-size="11" fill="#222">floor<tspan fill="#888" font-size="10"> INT</tspan></text>
+<text x="358" y="571" font-size="11" fill="#222">area<tspan fill="#888" font-size="10"> DECIMAL(12,2)</tspan></text>
+<text x="358" y="588" font-size="11" fill="#222">status<tspan fill="#888" font-size="10"> VARCHAR(16)</tspan></text>
+<text x="358" y="605" font-size="11" fill="#222">owner_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="358" y="622" font-size="11" fill="#222">create_time<tspan fill="#888" font-size="10"> DATETIME</tspan></text>
+<text x="358" y="629" font-size="10" fill="#188038" font-weight="bold">基础数据</text>
+</g>
+<g>
+<rect x="350" y="659" width="260" height="168" rx="6" fill="#e6f4ea" stroke="#188038" stroke-width="1.5"/>
+<rect x="350" y="659" width="260" height="24" rx="6" fill="#188038"/>
+<rect x="350" y="677" width="260" height="6" fill="#188038"/>
+<text x="360" y="675" font-size="13" font-weight="bold" fill="#fff">t_deposit_standard</text>
+<text x="600" y="675" font-size="10" fill="#fff" text-anchor="end">缴存标准</text>
+<text x="358" y="697" font-size="11" fill="#222">id <tspan fill="#c5221f" font-weight="bold">PK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="358" y="714" font-size="11" fill="#222">community_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="358" y="731" font-size="11" fill="#222">name<tspan fill="#888" font-size="10"> VARCHAR(100)</tspan></text>
+<text x="358" y="748" font-size="11" fill="#222">unit_price<tspan fill="#888" font-size="10"> DECIMAL(10,2)</tspan></text>
+<text x="358" y="765" font-size="11" fill="#222">type<tspan fill="#888" font-size="10"> VARCHAR(20)</tspan></text>
+<text x="358" y="782" font-size="11" fill="#222">effective_date<tspan fill="#888" font-size="10"> DATE</tspan></text>
+<text x="358" y="799" font-size="11" fill="#222">status<tspan fill="#888" font-size="10"> VARCHAR(16)</tspan></text>
+<text x="358" y="816" font-size="11" fill="#222">create_time<tspan fill="#888" font-size="10"> DATETIME</tspan></text>
+<text x="358" y="823" font-size="10" fill="#188038" font-weight="bold">基础数据</text>
+</g>
+<g>
+<rect x="670" y="60" width="260" height="236" rx="6" fill="#fef7e0" stroke="#e37400" stroke-width="1.5"/>
+<rect x="670" y="60" width="260" height="24" rx="6" fill="#e37400"/>
+<rect x="670" y="78" width="260" height="6" fill="#e37400"/>
+<text x="680" y="76" font-size="13" font-weight="bold" fill="#fff">t_fund_account</text>
+<text x="920" y="76" font-size="10" fill="#fff" text-anchor="end">资金账户</text>
+<text x="678" y="98" font-size="11" fill="#222">id <tspan fill="#c5221f" font-weight="bold">PK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="678" y="115" font-size="11" fill="#222">account_no<tspan fill="#888" font-size="10"> VARCHAR(40)</tspan></text>
+<text x="678" y="132" font-size="11" fill="#222">house_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="678" y="149" font-size="11" fill="#222">owner_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="678" y="166" font-size="11" fill="#222">community_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="678" y="183" font-size="11" fill="#222">balance<tspan fill="#888" font-size="10"> DECIMAL(14,2)</tspan></text>
+<text x="678" y="200" font-size="11" fill="#222">total_deposit<tspan fill="#888" font-size="10"> DECIMAL(14,2)</tspan></text>
+<text x="678" y="217" font-size="11" fill="#222">total_used<tspan fill="#888" font-size="10"> DECIMAL(14,2)</tspan></text>
+<text x="678" y="234" font-size="11" fill="#222">total_refund<tspan fill="#888" font-size="10"> DECIMAL(14,2)</tspan></text>
+<text x="678" y="251" font-size="11" fill="#222">status<tspan fill="#888" font-size="10"> VARCHAR(16)</tspan></text>
+<text x="678" y="268" font-size="11" fill="#222">open_time<tspan fill="#888" font-size="10"> DATETIME</tspan></text>
+<text x="678" y="285" font-size="11" fill="#222">create_time<tspan fill="#888" font-size="10"> DATETIME</tspan></text>
+<text x="678" y="292" font-size="10" fill="#e37400" font-weight="bold">资金账户</text>
+</g>
+<g>
+<rect x="670" y="322" width="260" height="304" rx="6" fill="#fef7e0" stroke="#e37400" stroke-width="1.5"/>
+<rect x="670" y="322" width="260" height="24" rx="6" fill="#e37400"/>
+<rect x="670" y="340" width="260" height="6" fill="#e37400"/>
+<text x="680" y="338" font-size="13" font-weight="bold" fill="#fff">t_deposit</text>
+<text x="920" y="338" font-size="10" fill="#fff" text-anchor="end">缴存单</text>
+<text x="678" y="360" font-size="11" fill="#222">id <tspan fill="#c5221f" font-weight="bold">PK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="678" y="377" font-size="11" fill="#222">order_no<tspan fill="#888" font-size="10"> VARCHAR(40)</tspan></text>
+<text x="678" y="394" font-size="11" fill="#222">community_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="678" y="411" font-size="11" fill="#222">house_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="678" y="428" font-size="11" fill="#222">account_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="678" y="445" font-size="11" fill="#222">standard_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="678" y="462" font-size="11" fill="#222">owner_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="678" y="479" font-size="11" fill="#222">type<tspan fill="#888" font-size="10"> VARCHAR(20)</tspan></text>
+<text x="678" y="496" font-size="11" fill="#222">quantity<tspan fill="#888" font-size="10"> DECIMAL(12,2)</tspan></text>
+<text x="678" y="513" font-size="11" fill="#222">unit_price<tspan fill="#888" font-size="10"> DECIMAL(10,2)</tspan></text>
+<text x="678" y="530" font-size="11" fill="#222">amount<tspan fill="#888" font-size="10"> DECIMAL(14,2)</tspan></text>
+<text x="678" y="547" font-size="11" fill="#222">status<tspan fill="#888" font-size="10"> VARCHAR(20)</tspan></text>
+<text x="678" y="564" font-size="11" fill="#222">operator_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="678" y="581" font-size="11" fill="#222">pay_time<tspan fill="#888" font-size="10"> DATETIME</tspan></text>
+<text x="678" y="598" font-size="11" fill="#222">remark<tspan fill="#888" font-size="10"> VARCHAR(500)</tspan></text>
+<text x="678" y="615" font-size="11" fill="#222">create_time<tspan fill="#888" font-size="10"> DATETIME</tspan></text>
+<text x="678" y="622" font-size="10" fill="#e37400" font-weight="bold">资金业务</text>
+</g>
+<g>
+<rect x="670" y="652" width="260" height="270" rx="6" fill="#fef7e0" stroke="#e37400" stroke-width="1.5"/>
+<rect x="670" y="652" width="260" height="24" rx="6" fill="#e37400"/>
+<rect x="670" y="670" width="260" height="6" fill="#e37400"/>
+<text x="680" y="668" font-size="13" font-weight="bold" fill="#fff">t_use_apply</text>
+<text x="920" y="668" font-size="10" fill="#fff" text-anchor="end">使用申请</text>
+<text x="678" y="690" font-size="11" fill="#222">id <tspan fill="#c5221f" font-weight="bold">PK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="678" y="707" font-size="11" fill="#222">apply_no<tspan fill="#888" font-size="10"> VARCHAR(40)</tspan></text>
+<text x="678" y="724" font-size="11" fill="#222">community_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="678" y="741" font-size="11" fill="#222">title<tspan fill="#888" font-size="10"> VARCHAR(200)</tspan></text>
+<text x="678" y="758" font-size="11" fill="#222">reason<tspan fill="#888" font-size="10"> VARCHAR(500)</tspan></text>
+<text x="678" y="775" font-size="11" fill="#222">item_desc<tspan fill="#888" font-size="10"> VARCHAR(1000)</tspan></text>
+<text x="678" y="792" font-size="11" fill="#222">total_amount<tspan fill="#888" font-size="10"> DECIMAL(14,2)</tspan></text>
+<text x="678" y="809" font-size="11" fill="#222">share_area<tspan fill="#888" font-size="10"> DECIMAL(14,2)</tspan></text>
+<text x="678" y="826" font-size="11" fill="#222">status<tspan fill="#888" font-size="10"> VARCHAR(20)</tspan></text>
+<text x="678" y="843" font-size="11" fill="#222">apply_user_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="678" y="860" font-size="11" fill="#222">apply_time<tspan fill="#888" font-size="10"> DATETIME</tspan></text>
+<text x="678" y="877" font-size="11" fill="#222">finish_time<tspan fill="#888" font-size="10"> DATETIME</tspan></text>
+<text x="678" y="894" font-size="11" fill="#222">remark<tspan fill="#888" font-size="10"> VARCHAR(500)</tspan></text>
+<text x="678" y="911" font-size="11" fill="#222">create_time<tspan fill="#888" font-size="10"> DATETIME</tspan></text>
+<text x="678" y="918" font-size="10" fill="#e37400" font-weight="bold">资金业务</text>
+</g>
+<g>
+<rect x="670" y="948" width="260" height="151" rx="6" fill="#fef7e0" stroke="#e37400" stroke-width="1.5"/>
+<rect x="670" y="948" width="260" height="24" rx="6" fill="#e37400"/>
+<rect x="670" y="966" width="260" height="6" fill="#e37400"/>
+<text x="680" y="964" font-size="13" font-weight="bold" fill="#fff">t_use_item</text>
+<text x="920" y="964" font-size="10" fill="#fff" text-anchor="end">使用分摊明细</text>
+<text x="678" y="986" font-size="11" fill="#222">id <tspan fill="#c5221f" font-weight="bold">PK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="678" y="1003" font-size="11" fill="#222">use_apply_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="678" y="1020" font-size="11" fill="#222">house_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="678" y="1037" font-size="11" fill="#222">account_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="678" y="1054" font-size="11" fill="#222">share_area<tspan fill="#888" font-size="10"> DECIMAL(12,2)</tspan></text>
+<text x="678" y="1071" font-size="11" fill="#222">share_amount<tspan fill="#888" font-size="10"> DECIMAL(14,2)</tspan></text>
+<text x="678" y="1088" font-size="11" fill="#222">status<tspan fill="#888" font-size="10"> VARCHAR(20)</tspan></text>
+<text x="678" y="1095" font-size="10" fill="#e37400" font-weight="bold">资金业务</text>
+</g>
+<g>
+<rect x="670" y="1125" width="260" height="134" rx="6" fill="#fef7e0" stroke="#e37400" stroke-width="1.5"/>
+<rect x="670" y="1125" width="260" height="24" rx="6" fill="#e37400"/>
+<rect x="670" y="1143" width="260" height="6" fill="#e37400"/>
+<text x="680" y="1141" font-size="13" font-weight="bold" fill="#fff">t_use_payment</text>
+<text x="920" y="1141" font-size="10" fill="#fff" text-anchor="end">拨付记录</text>
+<text x="678" y="1163" font-size="11" fill="#222">id <tspan fill="#c5221f" font-weight="bold">PK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="678" y="1180" font-size="11" fill="#222">use_apply_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="678" y="1197" font-size="11" fill="#222">amount<tspan fill="#888" font-size="10"> DECIMAL(14,2)</tspan></text>
+<text x="678" y="1214" font-size="11" fill="#222">pay_time<tspan fill="#888" font-size="10"> DATETIME</tspan></text>
+<text x="678" y="1231" font-size="11" fill="#222">operator_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="678" y="1248" font-size="11" fill="#222">remark<tspan fill="#888" font-size="10"> VARCHAR(500)</tspan></text>
+<text x="678" y="1255" font-size="10" fill="#e37400" font-weight="bold">资金业务</text>
+</g>
+<g>
+<rect x="670" y="1285" width="260" height="287" rx="6" fill="#fef7e0" stroke="#e37400" stroke-width="1.5"/>
+<rect x="670" y="1285" width="260" height="24" rx="6" fill="#e37400"/>
+<rect x="670" y="1303" width="260" height="6" fill="#e37400"/>
+<text x="680" y="1301" font-size="13" font-weight="bold" fill="#fff">t_refund_apply</text>
+<text x="920" y="1301" font-size="10" fill="#fff" text-anchor="end">退款申请</text>
+<text x="678" y="1323" font-size="11" fill="#222">id <tspan fill="#c5221f" font-weight="bold">PK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="678" y="1340" font-size="11" fill="#222">refund_no<tspan fill="#888" font-size="10"> VARCHAR(40)</tspan></text>
+<text x="678" y="1357" font-size="11" fill="#222">community_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="678" y="1374" font-size="11" fill="#222">house_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="678" y="1391" font-size="11" fill="#222">account_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="678" y="1408" font-size="11" fill="#222">owner_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="678" y="1425" font-size="11" fill="#222">reason<tspan fill="#888" font-size="10"> VARCHAR(30)</tspan></text>
+<text x="678" y="1442" font-size="11" fill="#222">amount<tspan fill="#888" font-size="10"> DECIMAL(14,2)</tspan></text>
+<text x="678" y="1459" font-size="11" fill="#222">balance_at_apply<tspan fill="#888" font-size="10"> DECIMAL(14,2)</tspan></text>
+<text x="678" y="1476" font-size="11" fill="#222">status<tspan fill="#888" font-size="10"> VARCHAR(20)</tspan></text>
+<text x="678" y="1493" font-size="11" fill="#222">apply_user_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="678" y="1510" font-size="11" fill="#222">apply_time<tspan fill="#888" font-size="10"> DATETIME</tspan></text>
+<text x="678" y="1527" font-size="11" fill="#222">finish_time<tspan fill="#888" font-size="10"> DATETIME</tspan></text>
+<text x="678" y="1544" font-size="11" fill="#222">remark<tspan fill="#888" font-size="10"> VARCHAR(500)</tspan></text>
+<text x="678" y="1561" font-size="11" fill="#222">create_time<tspan fill="#888" font-size="10"> DATETIME</tspan></text>
+<text x="678" y="1568" font-size="10" fill="#e37400" font-weight="bold">资金业务</text>
+</g>
+<g>
+<rect x="670" y="1598" width="260" height="270" rx="6" fill="#fef7e0" stroke="#e37400" stroke-width="1.5"/>
+<rect x="670" y="1598" width="260" height="24" rx="6" fill="#e37400"/>
+<rect x="670" y="1616" width="260" height="6" fill="#e37400"/>
+<text x="680" y="1614" font-size="13" font-weight="bold" fill="#fff">t_fund_flow</text>
+<text x="920" y="1614" font-size="10" fill="#fff" text-anchor="end">资金流水</text>
+<text x="678" y="1636" font-size="11" fill="#222">id <tspan fill="#c5221f" font-weight="bold">PK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="678" y="1653" font-size="11" fill="#222">flow_no<tspan fill="#888" font-size="10"> VARCHAR(40)</tspan></text>
+<text x="678" y="1670" font-size="11" fill="#222">account_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="678" y="1687" font-size="11" fill="#222">house_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="678" y="1704" font-size="11" fill="#222">community_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="678" y="1721" font-size="11" fill="#222">type<tspan fill="#888" font-size="10"> VARCHAR(20)</tspan></text>
+<text x="678" y="1738" font-size="11" fill="#222">direction<tspan fill="#888" font-size="10"> VARCHAR(4)</tspan></text>
+<text x="678" y="1755" font-size="11" fill="#222">amount<tspan fill="#888" font-size="10"> DECIMAL(14,2)</tspan></text>
+<text x="678" y="1772" font-size="11" fill="#222">balance<tspan fill="#888" font-size="10"> DECIMAL(14,2)</tspan></text>
+<text x="678" y="1789" font-size="11" fill="#222">related_no<tspan fill="#888" font-size="10"> VARCHAR(40)</tspan></text>
+<text x="678" y="1806" font-size="11" fill="#222">operator_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="678" y="1823" font-size="11" fill="#222">biz_time<tspan fill="#888" font-size="10"> DATETIME</tspan></text>
+<text x="678" y="1840" font-size="11" fill="#222">remark<tspan fill="#888" font-size="10"> VARCHAR(500)</tspan></text>
+<text x="678" y="1857" font-size="11" fill="#222">create_time<tspan fill="#888" font-size="10"> DATETIME</tspan></text>
+<text x="678" y="1864" font-size="10" fill="#e37400" font-weight="bold">资金业务</text>
+</g>
+<g>
+<rect x="990" y="60" width="260" height="117" rx="6" fill="#fdecec" stroke="#c5221f" stroke-width="1.5"/>
+<rect x="990" y="60" width="260" height="24" rx="6" fill="#c5221f"/>
+<rect x="990" y="78" width="260" height="6" fill="#c5221f"/>
+<text x="1000" y="76" font-size="13" font-weight="bold" fill="#fff">t_flow_def</text>
+<text x="1240" y="76" font-size="10" fill="#fff" text-anchor="end">流程定义</text>
+<text x="998" y="98" font-size="11" fill="#222">id <tspan fill="#c5221f" font-weight="bold">PK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="998" y="115" font-size="11" fill="#222">code<tspan fill="#888" font-size="10"> VARCHAR(30)</tspan></text>
+<text x="998" y="132" font-size="11" fill="#222">name<tspan fill="#888" font-size="10"> VARCHAR(100)</tspan></text>
+<text x="998" y="149" font-size="11" fill="#222">status<tspan fill="#888" font-size="10"> VARCHAR(16)</tspan></text>
+<text x="998" y="166" font-size="11" fill="#222">create_time<tspan fill="#888" font-size="10"> DATETIME</tspan></text>
+<text x="998" y="173" font-size="10" fill="#c5221f" font-weight="bold">审批工作流</text>
+</g>
+<g>
+<rect x="990" y="203" width="260" height="134" rx="6" fill="#fdecec" stroke="#c5221f" stroke-width="1.5"/>
+<rect x="990" y="203" width="260" height="24" rx="6" fill="#c5221f"/>
+<rect x="990" y="221" width="260" height="6" fill="#c5221f"/>
+<text x="1000" y="219" font-size="13" font-weight="bold" fill="#fff">t_flow_node</text>
+<text x="1240" y="219" font-size="10" fill="#fff" text-anchor="end">流程节点</text>
+<text x="998" y="241" font-size="11" fill="#222">id <tspan fill="#c5221f" font-weight="bold">PK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="998" y="258" font-size="11" fill="#222">flow_def_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="998" y="275" font-size="11" fill="#222">node_no<tspan fill="#888" font-size="10"> INT</tspan></text>
+<text x="998" y="292" font-size="11" fill="#222">node_name<tspan fill="#888" font-size="10"> VARCHAR(100)</tspan></text>
+<text x="998" y="309" font-size="11" fill="#222">approver_role<tspan fill="#888" font-size="10"> VARCHAR(20)</tspan></text>
+<text x="998" y="326" font-size="11" fill="#222">create_time<tspan fill="#888" font-size="10"> DATETIME</tspan></text>
+<text x="998" y="333" font-size="10" fill="#c5221f" font-weight="bold">审批工作流</text>
+</g>
+<g>
+<rect x="990" y="363" width="260" height="168" rx="6" fill="#fdecec" stroke="#c5221f" stroke-width="1.5"/>
+<rect x="990" y="363" width="260" height="24" rx="6" fill="#c5221f"/>
+<rect x="990" y="381" width="260" height="6" fill="#c5221f"/>
+<text x="1000" y="379" font-size="13" font-weight="bold" fill="#fff">t_flow_instance</text>
+<text x="1240" y="379" font-size="10" fill="#fff" text-anchor="end">流程实例</text>
+<text x="998" y="401" font-size="11" fill="#222">id <tspan fill="#c5221f" font-weight="bold">PK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="998" y="418" font-size="11" fill="#222">flow_def_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="998" y="435" font-size="11" fill="#222">biz_type<tspan fill="#888" font-size="10"> VARCHAR(30)</tspan></text>
+<text x="998" y="452" font-size="11" fill="#222">biz_id<tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="998" y="469" font-size="11" fill="#222">current_node_no<tspan fill="#888" font-size="10"> INT</tspan></text>
+<text x="998" y="486" font-size="11" fill="#222">status<tspan fill="#888" font-size="10"> VARCHAR(20)</tspan></text>
+<text x="998" y="503" font-size="11" fill="#222">start_time<tspan fill="#888" font-size="10"> DATETIME</tspan></text>
+<text x="998" y="520" font-size="11" fill="#222">end_time<tspan fill="#888" font-size="10"> DATETIME</tspan></text>
+<text x="998" y="527" font-size="10" fill="#c5221f" font-weight="bold">审批工作流</text>
+</g>
+<g>
+<rect x="990" y="557" width="260" height="219" rx="6" fill="#fdecec" stroke="#c5221f" stroke-width="1.5"/>
+<rect x="990" y="557" width="260" height="24" rx="6" fill="#c5221f"/>
+<rect x="990" y="575" width="260" height="6" fill="#c5221f"/>
+<text x="1000" y="573" font-size="13" font-weight="bold" fill="#fff">t_approval</text>
+<text x="1240" y="573" font-size="10" fill="#fff" text-anchor="end">审批记录</text>
+<text x="998" y="595" font-size="11" fill="#222">id <tspan fill="#c5221f" font-weight="bold">PK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="998" y="612" font-size="11" fill="#222">flow_instance_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="998" y="629" font-size="11" fill="#222">biz_type<tspan fill="#888" font-size="10"> VARCHAR(30)</tspan></text>
+<text x="998" y="646" font-size="11" fill="#222">biz_id<tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="998" y="663" font-size="11" fill="#222">node_no<tspan fill="#888" font-size="10"> INT</tspan></text>
+<text x="998" y="680" font-size="11" fill="#222">node_name<tspan fill="#888" font-size="10"> VARCHAR(100)</tspan></text>
+<text x="998" y="697" font-size="11" fill="#222">approver_id <tspan fill="#1a73e8" font-weight="bold">FK</tspan><tspan fill="#888" font-size="10"> BIGINT</tspan></text>
+<text x="998" y="714" font-size="11" fill="#222">approver_name<tspan fill="#888" font-size="10"> VARCHAR(64)</tspan></text>
+<text x="998" y="731" font-size="11" fill="#222">action<tspan fill="#888" font-size="10"> VARCHAR(16)</tspan></text>
+<text x="998" y="748" font-size="11" fill="#222">opinion<tspan fill="#888" font-size="10"> VARCHAR(500)</tspan></text>
+<text x="998" y="765" font-size="11" fill="#222">time<tspan fill="#888" font-size="10"> DATETIME</tspan></text>
+<text x="998" y="772" font-size="10" fill="#c5221f" font-weight="bold">审批工作流</text>
+</g>
+<text x="30" y="1944" font-size="12" fill="#333">图例：</text>
+<circle cx="64" cy="1939" r="2.6" fill="#b0b8c4"/>
+<text x="72" y="1944" font-size="12" fill="#333">外键引用方向（虚线，右→左）</text>
+<text x="280" y="1944" font-size="12" fill="#333">PK=主键 FK=外键</text>
+</svg>
